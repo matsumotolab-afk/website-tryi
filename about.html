@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Untitled Space</title>
+    <link rel="stylesheet" href="website.css">
+</head>
+<body>
+
+    
+    <button class="menu-button" onclick="toggleMenu()">☰</button>
+
+
+    <div class="sidebar" id="sidebar">
+        <button class="close-button" onclick="toggleMenu()">✖</button>
+        <a href="website.html">Top</a>
+        <a href="about.html">About</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#sns">SNS</a>
+    </div>
+
+    <h1 class="header-title">
+        <a href="website.html" >Untitled Space</a>
+    </h1>
+
+
+    <section class="about-section">
+        <h2>About</h2>
+        <div class="about-content">
+            <img src="vtuber-avatar.jpg" class="about-avatar" >
+            <p>
+                Coming Soon...
+            </p>
+        </div>
+    </section>
+
+    
+ 
+    <footer class="footer">
+        <p>© 2024 Untitled Space. All Rights Reserved.</p>
+        <div class="footer-links">
+            <a href="contact.html">Contact</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById("sidebar").classList.toggle("open");
+        }
+    </script>
+
+<div class="footer-sns">
+    <a href="https://youtube.com" target="_blank" class="sns-button youtube">YouTube</a>
+    <a href="https://x.com/Un_86_space" target="_blank" class="sns-button twitter">X</a>
+</div>
+
+</body>
+</html>
